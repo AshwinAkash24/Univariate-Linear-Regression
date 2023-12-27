@@ -23,7 +23,7 @@ import matplotlib.pyplot as plt
 X=np.array(eval(input()))
 Y=np.array(eval(input()))
 X_mean=np.mean(X)
-Y_mean=np.array(Y)
+Y_mean=np.mean(Y)
 num=0
 demon=0
 for i in range(len(X)):
@@ -38,6 +38,7 @@ plt.plot(X,Y_pred,color='black')
 plt.show()
 ```
 ## Output
-![Alt text](image.png)
+![image](https://github.com/AshwinAkash24/Univariate-Linear-Regression/assets/144979248/4b9808e0-ce93-4321-9435-2480835f0973)
+
 ## Result
 Thus the univariate Linear Regression was implemented to fit a straight line using least squares.
